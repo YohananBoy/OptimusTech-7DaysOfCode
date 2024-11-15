@@ -126,6 +126,7 @@ nav ul {
     justify-content: center;
     padding: 96px 0;
 }
+
 #cabecalho .container {
     display: flex;
     flex-direction: column;
