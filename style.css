@@ -1,0 +1,102 @@
+/*GERAL*/
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+:root {
+    --fonte: 'Inter';
+    --corPrincipal: #8E2424;
+    --corTitulo: #101828;
+    --corTexto: #667085;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+    color: var(--corTexto);
+}
+
+.container {
+    width: 67.5%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--corTitulo);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--corPrincipal);
+    transition: .3s ease all;
+}
+
+/*HEADER*/
+header {
+    padding: 20px;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+}
+
+#logo img {
+    margin-right: 10px;
+}
+
+#logo h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#login input {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    margin: 0 1rem;
+}
+
+#login input[value="Entrar"] {
+    background-color: transparent;
+    border: none;
+}
+
+#login input[value="Entrar"]:hover {
+    color: var(--corPrincipal);
+    transition: .3s ease all;
+}
+
+#login input[value="Cadastrar"] {
+    border-radius: 10px;
+    background-color: var(--corPrincipal);
+    border-color: var(--corPrincipal);
+    color: #fff;
+}
+
+#login input[value="Cadastrar"]:hover {
+    color: var(--corPrincipal);
+    background-color: transparent;
+    transition: .3s ease all;
+}
