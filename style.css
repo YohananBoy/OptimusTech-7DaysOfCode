@@ -19,6 +19,7 @@
     box-sizing: border-box;
     font-family: var(--fonte);
     color: var(--corTexto);
+    font-size: 1.1rem;
 }
 
 .container {
@@ -26,8 +27,24 @@
     margin: 0 auto;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 h1 {
     color: var(--corTitulo);
+    font-weight: 600;
+}
+
+h2 {
+    color: var(--corPrincipal);
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 a {
@@ -72,9 +89,8 @@ nav ul {
 }
 
 #login input {
-    font-size: 1.2rem;
     font-weight: 500;
-    padding: 10px 15px;
+    padding: 10px 18px;
     margin: 0 1rem;
 }
 
@@ -89,7 +105,7 @@ nav ul {
 }
 
 #login input[value="Cadastrar"] {
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: var(--corPrincipal);
     border-color: var(--corPrincipal);
     color: #fff;
@@ -99,4 +115,32 @@ nav ul {
     color: var(--corPrincipal);
     background-color: transparent;
     transition: .3s ease all;
+}
+
+/*MAIN*/
+/*CABEÇALHO*/
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 0;
+}
+#cabecalho .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+#cabecalho h1 {
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+#cabecalho p {
+    width: 792px;
+    line-height: 30px;
 }
