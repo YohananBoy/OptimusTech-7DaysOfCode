@@ -89,7 +89,7 @@ nav ul {
 }
 
 #login input[value="Cadastrar"] {
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: var(--corPrincipal);
     border-color: var(--corPrincipal);
     color: #fff;
