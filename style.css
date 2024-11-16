@@ -145,3 +145,23 @@ nav ul {
     width: 792px;
     line-height: 30px;
 }
+/*MÉTRICAS*/
+#metricas .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+#metricas h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#metricas h3 {
+    color: #101828;
+    margin-bottom: 10px;
+}
+
+#metricas p {
+    font-size: 1rem;
+}
