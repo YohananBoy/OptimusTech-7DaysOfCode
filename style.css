@@ -48,6 +48,11 @@ p {
     font-size: 1.2rem;
 }
 
+span {
+    color: #101828;
+    font-weight: 500;
+}
+
 a {
     text-decoration: none;
     font-weight: 500;
@@ -174,23 +179,44 @@ nav ul {
     padding: 96px 0;
 }
 
-#vagas .container {
+#vagas .talentos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#vagas h2 {
+#vagas .talentos h2 {
     background-color: #8E24240D;
     width: fit-content;
     padding: 4px 12px;
     border-radius: 16px;
 }
 
-#vagas h1 {
+#vagas .talentos h1 {
     margin: 10px 0;
 }
 
-#vagas p {
+#vagas .talentos p {
     margin: 10px 0 60px 0;
+}
+
+#vagas .vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+#vagas .vaga-card {
+    width: 768px;
+    padding: 24px 24px 28px 24px;
+    margin: 10px 0;
+    border: #EAECF0 1px solid;
+    border-radius: 16px;
+}
+
+#vagas .titulo {
+    margin: 30px 0;
+    font-size: 1.2rem;
 }
