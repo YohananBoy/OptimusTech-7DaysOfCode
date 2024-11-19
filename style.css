@@ -210,10 +210,14 @@ nav ul {
 
 #vagas .vaga-card {
     width: 768px;
+    height: 136px;
     padding: 24px 24px 28px 24px;
     margin: 10px 0;
     border: #EAECF0 1px solid;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #vagas .titulo {
