@@ -153,6 +153,7 @@ nav ul {
     width: 792px;
     line-height: 30px;
 }
+
 /*MÉTRICAS*/
 #metricas .container {
     display: grid;
@@ -223,4 +224,39 @@ nav ul {
 #vagas .titulo {
     margin: 30px 0;
     font-size: 1.2rem;
+}
+
+/*DEPOIMENTOS*/
+#depoimentos {
+    padding-bottom: 96px;
+}
+
+#depoimentos .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #C3191908;
+    padding: 64px;
+    border-radius: 16px;
+    gap: 32px;
+}
+
+#depoimentos .container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#depoimentos .container div:first-child {
+    gap: 16px;
+}
+
+#depoimentos .container div:first-child span {
+    color: var(--corPrincipal);
+}
+
+#depoimentos img {
+    width: fit-content;
+    margin-bottom: 16px;
 }
